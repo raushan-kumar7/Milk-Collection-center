@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milk Collection Center</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
+    />
+  </head>
+  <body>
+    <!-- It's Header Section -->
+    <header>
+      <a href="#" class="logo"><img src="img/logo.png" alt="logo" /></a>
+      <div class="navigation">
+        <ul class="menu">
+          <div class="close-btn"></div>
+          <li class="menu-item">
+            <a href="index.html"
+              ><span><i class="fa-solid fa-house"></i></span>Home</a
+            >
+          </li>
+          <li class="menu-item">
+            <a href="aboutUs.html"
+              ><span><i class="fa-solid fa-address-card"></i></span>About Us</a
+            >
+          </li>
+          <li class="menu-item">
+            <a href="login.html"
+              ><span><i class="fa-solid fa-right-to-bracket"></i></span>Sign In
+              / Sign Up</a
+            >
+          </li>
+          <li class="menu-item">
+            <a href="serviceMilkCollection.html" class="sub-btn"
+              ><span><i class="fa-solid fa-bolt"></i></span>Services
+              <span><i class="fa-solid fa-caret-down"></i></span
+            ></a>
+            <ul class="sub-menu">
+              <li class="sub-item">
+                <a href="serviceMilkCollection.html"
+                  ><span><i class="fa-solid fa-bucket"></i></span>Milk
+                  Collection</a
+                >
+              </li>
+              <li class="sub-item">
+                <a href="serviceMilkCollection.html"
+                  ><span><i class="fa-solid fa-truck-arrow-right"></i></span
+                  >Milk Transportation</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="contactUs.html"
+              ><span><i class="fa-solid fa-address-book"></i></span>Contact
+              Us</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="menu-btn"></div>
+    </header>
+    <!-- It's Sign In / Sign Up -->
+
+    <section class="signInUp">
+        <div class="login-container" id="login-container">
+          <div class="form-container sign-up">
+              <form>
+                  <h1>Create Account</h1>
+                  <div class="social-icons">
+                      <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                      <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                      <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+                  <span>or use your email for registeration</span>
+                  <input type="text" placeholder="Name">
+                  <input type="email" placeholder="Email">
+                  <input type="password" placeholder="Password">
+                  <button>Sign Up</button>
+              </form>
+          </div>
+          <div class="form-container sign-in">
+              <form>
+                  <h1>Sign In</h1>
+                  <div class="social-icons">
+                      <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                      <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                      <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+                  <span>or use your email password</span>
+                  <input type="email" placeholder="Email">
+                  <input type="password" placeholder="Password">
+                  <a href="#">Forget Your Password?</a>
+                  <button>Sign In</button>
+              </form>
+          </div>
+          <div class="toggle-container">
+              <div class="toggle">
+                  <div class="toggle-panel toggle-left">
+                      <h1>Welcome Back!</h1>
+                      <p>Enter your personal details to use all of site features</p>
+                      <button class="hidden" id="login">Sign In</button>
+                  </div>
+                  <div class="toggle-panel toggle-right">
+                      <h1>Hello, Farmer!</h1>
+                      <p>Register with your personal details to use all of site features</p>
+                      <button class="hidden" id="register">Sign Up</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+<!-- It's Footer Section -->
+    <footer class="footer theme-bg-primary wow rollIn">
+      <div class="container py-5">
+        <div class="row" style="margin-left: 50px">
+          <div class="col-lg-3">
+            <h4 class="col-heading">Quick Links</h4>
+            <ul class="links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutUs.html">About Us</a></li>
+              <li><a href="login.html">Sign In/Sign Up</a></li>
+              <li><a href="serviceMilkCollection.html">Services</a></li>
+              <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h4 class="col-heading">Available Services</h4>
+            <ul class="links">
+              <li><a href="#">Milk Collection</a></li>
+              <li><a href="#">Milk Transportation</a></li>
+              <li><a href="#">Cattle Feed/Medicine</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h4 class="col-heading">NewsLetters</h4>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email Address"
+                required
+              />
+              <button type="submit" class="btn btn-secondary" id="btn">
+                Subscribe Now
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h4 class="col-heading">Stay Connected</h4>
+            <ul class="social-list">
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i class="fa-brands fa-instagram fa-beat fa-xl"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i class="fa-brands fa-linkedin fa-beat fa-xl"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i class="fa-brands fa-x-twitter fa-beat fa-xl"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i class="fa-brands fa-facebook fa-beat fa-xl"></i
+                ></a>
+              </li>
+            </ul>
+            <div class="mb-2">
+              <span><i class="fa-solid fa-house fa-beat"></i></span>
+              RK Complex<br />
+              <span><i class="fa-solid fa-location-dot fa-beat"></i></span>
+              Manai Tola Shripur <br />
+              East Champaran, Ghorasahan,<br />
+              Bihar, India, 845303
+            </div>
+            <div class="text-white">
+              <span><i class="fa-solid fa-phone fa-beat"></i></span>+91
+              8625563369 <br />
+              <a href=""
+                ><span><i class="fa-solid fa-envelope fa-beat"></i></span
+                >gro@milkmcc.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <hr />
+        <div class="container text-center">
+          <h3 class="mb-3">Get the App</h3>
+          <div class="section-intro mb-4 mx-auto">
+            Download our apps now. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Porro, inventore, quis ipsa consequuntur
+            dignissimos itaque <br />
+            id a quas facilis nam at quae tempore error! Expedita officiis eaque
+            atque quod facilis?
+          </div>
+          <ul class="d-inline-block">
+            <li class="list-inline-item mr-3">
+              <a href="#"
+                ><img
+                  src="img/apple.svg"
+                  alt="appleStore"
+                  class="ios"
+                  width="100px"
+                  height="100px"
+              /></a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#"
+                ><img
+                  src="img/android.svg"
+                  alt="androidStore"
+                  class="android"
+                  width="100px"
+                  height="100px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom text-center pb-5">
+        <small class="copyright">
+          Copyright &copy; All right reversed by Milk Collection Center.
+          Designed by <i class="fa fa-heart" style="color: red"></i>
+          <a href="">AlphaX Software Solutions Pvt. Ltd.</a>
+        </small>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
